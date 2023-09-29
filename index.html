@@ -1,0 +1,14 @@
+<html><head><title>bird anmation</title><style>
+      .bird{
+      width: 140px;height: 150px;background-image: url(./img/twitter-bird-sprite.png);
+      animation:xyz .5s steps(3) infinite;
+      transform: rotateZ(45deg); }@keyframes xyz{ 0%{background-position:0px 0px;}
+                                                 100%{background-position:-460px 0px;}} 
+      .parent{
+        position: relative;
+        animation:birdparent 5s linear infinite}
+      @keyframes birdparent{
+      0%{left: 0%;}
+     100%{left: 100%;}}</style>
+    </head><body><div class="parent"><div class="bird"></div></div></body>
+</html>
